@@ -177,6 +177,37 @@ $wp_customize-> add_control('dffdsddfdffdfdf454dxf', array(
     'setting' => 'backgd435',
     'section' => 'backgroundimg',
   ) ));
+  //prfile pic change
+    //Header Area Function
+    $wp_customize->add_section('profilechane', array(
+      'title' =>__('founder', 'sjana'),
+      'description' => 'change profile pic'
+    ));
+  
+    $wp_customize->add_setting('profilechane', array(
+      'default' => "https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D",
+    ));
+  
+    $wp_customize-> add_control(new WP_Customize_Image_Control($wp_customize, 'profilechane', array(
+      'label' => 'change profile pic',
+      'description' => 'If you interested to change or update your logo you can do it.',
+      'setting' => 'profilechane',
+      'section' => 'profilechane',
+    ) ));
+
+    //name 
+    
+$wp_customize->add_setting('dffdsddfdffdfddddf454dxf', array(
+  'default' => 'Sherleen Wan',
+));
+
+$wp_customize-> add_control('dffdsddfdffdfddddf454dxf', array(
+  'label' => 'name',
+  'description' => '',
+  'setting' => 'dffdsddfdffdfddddf454dxf',
+  'section' => 'profilechane',
+));
+
 
   
     

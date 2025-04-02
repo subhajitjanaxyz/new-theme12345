@@ -454,9 +454,9 @@ endif;
   <div class="container">
 <div class="row">
 <div class="col-lg-6 d-flex justify-content-center align-items-center py-2">
-  <img src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D" alt="" class="rounded-circle m-4" width="150px" height="150px">
+  <img src="<?php echo get_theme_mod('profilechane'); ?>" alt="" class="rounded-circle m-4" width="150px" height="150px">
   <div class="">
-    <h3>Sherleen Wan</h3>
+    <h3><?php echo get_theme_mod('dffdsddfdffdfddddf454dxf'); ?></h3>
     <h3 style="color:#1F3D83;">Founder</h3>
     <p>Registered Trademark Agent​​
 As a registered trademark agent, she advises clients on procedures and strategy of IP prosecution in Malaysia and overseas. She actively shares her IP knowledge through publishing journals and organizing seminars and webinars on patents, trademarks, copyrights, and other areas of IP.</p>
