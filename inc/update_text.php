@@ -62,7 +62,7 @@ function nex123_customizar_register($wp_customize){
     //btn1 name
   
     $wp_customize->add_setting('dffdsfdsdfds33dfdfdf454dxffd', array(
-        'default' => 'Free INQUIRY',
+        'default' => 'PORTFOLIO',
       ));
     
       $wp_customize-> add_control('dffdsfdsdfds33dfdfdf454dxffd', array(
@@ -75,7 +75,7 @@ function nex123_customizar_register($wp_customize){
     //btn2 name
   
     $wp_customize->add_setting('dffdsfdsdfdfds33dfdfdf454dxffd', array(
-        'default' => 'VIEW SERVICES',
+        'default' => 'OUR SERVICES',
       ));
     
       $wp_customize-> add_control('dffdsfdsdfdfds33dfdfdf454dxffd', array(
@@ -168,7 +168,7 @@ $wp_customize-> add_control('dffdsddfdffdfdf454dxf', array(
   ));
 
   $wp_customize->add_setting('backgd435', array(
-    'default' => "https://media.istockphoto.com/id/1271954989/photo/late-night-work.jpg?s=2048x2048&w=is&k=20&c=vuVticB_QJj8s-PO2fQQ-HIVXkMLSKHABASKd_FmYKs=",
+    'default' => "https://images.unsplash.com/photo-1510851896000-498520af2236?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGFyayUyMG9mZmljZXxlbnwwfHwwfHx8MA%3D%3D",
   ));
 
   $wp_customize-> add_control(new WP_Customize_Image_Control($wp_customize, 'backgd435', array(

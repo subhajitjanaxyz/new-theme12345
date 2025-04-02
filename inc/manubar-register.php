@@ -6,6 +6,7 @@ function my_theme_register_menus() {
     ));
     add_theme_support('post-thumbnails');
     set_post_thumbnail_size(300, 200, true); 
+
 }
 add_action('after_setup_theme', 'my_theme_register_menus');
 function sxdfef_excerpt_more($more){

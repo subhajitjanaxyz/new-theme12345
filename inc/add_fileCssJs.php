@@ -2,10 +2,12 @@
 
 
 function sjj_all_file_link_here(){
-    // all css file added
+// default css file add style.css
 wp_enqueue_style('stylefile',get_stylesheet_uri());
+//register css file
 wp_register_style('bootstrap',get_template_directory_uri().'/css/bootstrap.css',array(),'1.0.0','all');
 wp_register_style('custom',get_template_directory_uri().'/css/custom.css',array(),'1.0.0','all');
+//add register file 
 wp_enqueue_style('bootstrap');
 wp_enqueue_style('fontawasome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css', false);
 wp_enqueue_style('custom');

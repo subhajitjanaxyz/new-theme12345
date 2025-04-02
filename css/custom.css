@@ -231,8 +231,25 @@ margin-inline: auto;
 
 }
 /* blog page here start */
+.imgaobout{
+width:100%;
+max-width: 400px;
+height: auto;
+margin-inline: auto;
+border-radius: 20px;
+}
+/* carosul bt */
+.newcolorx{
+  /* background-color: red; */
+  border: 1px solid #1F3D83 !important;
+  &:hover{
+    background-color:  #1F3D83 !important;
+    color: #ffffff ;
+
+  }
 
 
+}
 /* //responsiveness */
 @media (width<=575px) and (width>=0px){
 
@@ -243,7 +260,6 @@ margin-inline: auto;
     .ctggr-dfeg7fds{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        
         gap: 20px;
 
         }
